@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+.body{
+    font-family: sans-serif;
+}
+.nav-wrapper1{
+   display: flex;
+   background-color: rgb(30,45,59);
+}
+.logo1{
+    padding: 3%;
+   background-color: rgb(237,205,32);
+   color: rgb(164,123,49);
+}
+.fi{
+    color: black;
+    font-size: 1.5rem;
+    text-decoration-line: none;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+}
+.links{
+    padding-top: 5%;
+    margin-left: 28%;
+    display: flex; 
+}
+.nav-links{
+    display: flex;
+    gap: 18px;
+}
+a:hover{
+    color: rgb(237,205,32);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1140px){
+    .links{
+        padding-top: 5%;
+        margin-left: 20%;
+        display: flex;
+}
+.nav-links{
+    gap: 20px;
+}
+}
+
+@media screen and (max-width: 1024px){
+    .links{
+        padding-top: 5%;
+        margin-left: 10%;
+        display: flex;
+}
+.nav-links{
+    gap: 8px;
+}
+}
+
+
+@media screen and (max-width: 785px){
+    .links{
+        padding-top: 5%;
+        margin-left: 10%;
+        display: flex;
+}
+.nav-links{
+    gap: 5px;
+    font-size: 80px;
+}
+
+}
